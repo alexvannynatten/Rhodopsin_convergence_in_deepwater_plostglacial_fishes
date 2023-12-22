@@ -1,0 +1,170 @@
+IQ-TREE multicore version 1.6.9 for Mac OS X 64-bit built Dec 20 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Alexanders-MacBook-Pro.local (AVX2, FMA3, 16 GB RAM)
+Command: iqtree -s Salmonid_rh1.phy -m TEST_ONLY
+Seed:    929624 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Sep 25 22:36:13 2021
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file Salmonid_rh1.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 6 sites contain only gaps or ambiguous characters.
+Alignment has 20 sequences with 1068 columns, 172 distinct patterns
+104 parsimony-informative, 47 singleton sites, 917 constant sites
+                          Gap/Ambiguity  Composition  p-value
+   1  Brachymystax_lenok         23.88%    passed     60.06%
+   2  Coregonus_clupeaformis      0.56%    passed     99.74%
+   3  Coregonus_sp_1              7.30%    passed     99.64%
+   4  Coregonus_sp_2             11.42%    passed     96.96%
+   5  Coregonus_sp_3             16.76%    passed     89.44%
+   6  Hucho_hucho                 0.56%    passed     99.65%
+   7  Oncorhynchus_gorbuscha      0.56%    passed     98.84%
+   8  Oncorhynchus_keta           0.56%    passed     99.41%
+   9  Oncorhynchus_kisutch        0.56%    passed     99.84%
+  10  Oncorhynchus_mykiss         0.56%    passed     99.52%
+  11  Oncorhynchus_nerka          0.56%    passed     98.59%
+  12  Oncorhynchus_tshawytscha    0.56%    passed     99.80%
+  13  Prosopium_coulterii         6.74%    passed     99.39%
+  14  Prosopium_cylindraceum      1.97%    passed     96.93%
+  15  Salmo_salar                 0.56%    passed     90.36%
+  16  Salmo_trutta               24.44%    passed     88.11%
+  17  Salvelinus_fontinalis      14.23%    passed     90.49%
+  18  Salvelinus_namaycush        0.56%    passed     95.32%
+  19  Thymallus_arcticus         10.11%    passed     96.54%
+  20  Thymallus_thymallus         0.56%    passed     93.13%
+****  TOTAL                       6.15%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+NOTE: ModelFinder requires 0 MB RAM!
+ModelFinder will test 88 DNA models (sample size: 1068) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            2867.252     37  5808.504     5811.234     5992.525
+  2  JC+I          2823.745     38  5723.490     5726.371     5912.485
+  3  JC+G4         2823.560     38  5723.120     5726.001     5912.115
+  4  JC+I+G4       2823.048     39  5724.095     5727.130     5918.064
+  5  F81+F         2853.378     40  5786.755     5789.949     5985.697
+  6  F81+F+I       2808.194     41  5698.388     5701.744     5902.303
+  7  F81+F+G4      2808.081     41  5698.162     5701.519     5902.077
+  8  F81+F+I+G4    2807.633     42  5699.266     5702.790     5908.155
+  9  K2P           2822.870     38  5721.739     5724.620     5910.734
+ 10  K2P+I         2777.496     39  5632.991     5636.026     5826.959
+ 11  K2P+G4        2777.352     39  5632.704     5635.739     5826.672
+ 12  K2P+I+G4      2776.626     40  5633.253     5636.447     5832.195
+ 13  HKY+F         2810.705     41  5703.409     5706.766     5907.324
+ 14  HKY+F+I       2764.122     42  5612.245     5615.768     5821.133
+ 15  HKY+F+G4      2764.028     42  5612.055     5615.579     5820.944
+ 16  HKY+F+I+G4    2763.347     43  5612.694     5616.390     5826.557
+ 17  TNe           2821.268     39  5720.537     5723.572     5914.505
+ 18  TNe+I         2776.843     40  5633.685     5636.879     5832.627
+ 19  TNe+G4        2776.630     40  5633.261     5636.455     5832.203
+ 20  TNe+I+G4      2775.814     41  5633.628     5636.985     5837.543
+ 21  TN+F          2810.671     42  5705.341     5708.865     5914.230
+ 22  TN+F+I        2764.067     43  5614.134     5617.830     5827.997
+ 23  TN+F+G4       2763.987     43  5613.974     5617.670     5827.837
+ 24  TN+F+I+G4     2763.325     44  5614.650     5618.521     5833.486
+ 25  K3P           2821.200     39  5720.400     5723.435     5914.368
+ 26  K3P+I         2775.783     40  5631.566     5634.760     5830.508
+ 27  K3P+G4        2775.642     40  5631.283     5634.477     5830.225
+ 28  K3P+I+G4      2774.910     41  5631.821     5635.177     5835.736
+ 29  K3Pu+F        2809.224     42  5702.449     5705.973     5911.338
+ 30  K3Pu+F+I      2762.740     43  5611.480     5615.176     5825.343
+ 31  K3Pu+F+G4     2762.642     43  5611.284     5614.979     5825.146
+ 32  K3Pu+F+I+G4   2761.950     44  5611.899     5615.770     5830.735
+ 33  TPM2+F        2809.533     42  5703.067     5706.591     5911.956
+ 34  TPM2+F+I      2762.434     43  5610.868     5614.563     5824.730
+ 35  TPM2+F+G4     2762.360     43  5610.720     5614.415     5824.582
+ 36  TPM2+F+I+G4   2761.749     44  5611.499     5615.370     5830.335
+ 37  TPM2u+F       2809.533     42  5703.066     5706.590     5911.955
+ 38  TPM2u+F+I     2762.434     43  5610.868     5614.563     5824.731
+ 39  TPM2u+F+G4    2762.360     43  5610.720     5614.415     5824.582
+ 40  TPM2u+F+I+G4  2761.749     44  5611.499     5615.370     5830.335
+ 41  TPM3+F        2810.662     42  5705.323     5708.847     5914.212
+ 42  TPM3+F+I      2763.742     43  5613.485     5617.180     5827.347
+ 43  TPM3+F+G4     2763.668     43  5613.335     5617.031     5827.198
+ 44  TPM3+F+I+G4   2763.025     44  5614.049     5617.920     5832.885
+ 45  TPM3u+F       2810.662     42  5705.323     5708.847     5914.212
+ 46  TPM3u+F+I     2763.742     43  5613.485     5617.180     5827.347
+ 47  TPM3u+F+G4    2763.668     43  5613.335     5617.031     5827.198
+ 48  TPM3u+F+I+G4  2763.024     44  5614.049     5617.920     5832.885
+ 49  TIMe          2819.598     40  5719.196     5722.390     5918.138
+ 50  TIMe+I        2775.130     41  5632.259     5635.616     5836.174
+ 51  TIMe+G4       2774.922     41  5631.843     5635.200     5835.759
+ 52  TIMe+I+G4     2774.098     42  5632.196     5635.720     5841.085
+ 53  TIM+F         2809.190     43  5704.380     5708.076     5918.243
+ 54  TIM+F+I       2762.686     44  5613.372     5617.243     5832.208
+ 55  TIM+F+G4      2762.602     44  5613.203     5617.074     5832.039
+ 56  TIM+F+I+G4    2761.927     45  5613.853     5617.904     5837.662
+ 57  TIM2e         2820.740     40  5721.479     5724.673     5920.421
+ 58  TIM2e+I       2776.153     41  5634.305     5637.662     5838.220
+ 59  TIM2e+G4      2775.951     41  5633.901     5637.258     5837.816
+ 60  TIM2e+I+G4    2775.169     42  5634.338     5637.862     5843.227
+ 61  TIM2+F        2809.501     43  5705.003     5708.698     5918.865
+ 62  TIM2+F+I      2762.368     44  5612.737     5616.608     5831.573
+ 63  TIM2+F+G4     2762.309     44  5612.618     5616.489     5831.454
+ 64  TIM2+F+I+G4   2761.723     45  5613.446     5617.497     5837.255
+ 65  TIM3e         2821.264     40  5722.529     5725.722     5921.470
+ 66  TIM3e+I       2776.747     41  5635.494     5638.851     5839.409
+ 67  TIM3e+G4      2776.552     41  5635.105     5638.462     5839.020
+ 68  TIM3e+I+G4    2775.759     42  5635.518     5639.041     5844.406
+ 69  TIM3+F        2810.627     43  5707.255     5710.950     5921.117
+ 70  TIM3+F+I      2763.687     44  5615.374     5619.245     5834.210
+ 71  TIM3+F+G4     2763.626     44  5615.252     5619.123     5834.087
+ 72  TIM3+F+I+G4   2763.000     45  5616.000     5620.051     5839.810
+ 73  TVMe          2820.451     41  5722.902     5726.259     5926.818
+ 74  TVMe+I        2774.641     42  5633.282     5636.806     5842.171
+ 75  TVMe+G4       2774.532     42  5633.065     5636.589     5841.954
+ 76  TVMe+I+G4     2773.872     43  5633.743     5637.438     5847.605
+ 77  TVM+F         2807.648     44  5703.297     5707.168     5922.132
+ 78  TVM+F+I       2760.046     45  5610.092     5614.143     5833.901
+ 79  TVM+F+G4      2759.998     45  5609.995     5614.046     5833.805
+ 80  TVM+F+I+G4    2759.417     46  5610.834     5615.069     5839.617
+ 81  SYM           2818.866     42  5721.733     5725.257     5930.622
+ 82  SYM+I         2773.996     43  5633.991     5637.687     5847.854
+ 83  SYM+G4        2773.824     43  5633.647     5637.343     5847.510
+ 84  SYM+I+G4      2773.062     44  5634.124     5637.995     5852.960
+ 85  GTR+F         2807.621     45  5705.241     5709.292     5929.050
+ 86  GTR+F+I       2759.981     46  5611.961     5616.196     5840.744
+ 87  GTR+F+G4      2759.946     46  5611.893     5616.128     5840.676
+ 88  GTR+F+I+G4    2759.388     47  5612.776     5617.200     5846.533
+Akaike Information Criterion:           TVM+F+G4
+Corrected Akaike Information Criterion: TVM+F+G4
+Bayesian Information Criterion:         HKY+F+G4
+Best-fit model: HKY+F+G4 chosen according to BIC
+
+All model information printed to Salmonid_rh1.phy.model.gz
+CPU time for ModelFinder: 0.302 seconds (0h:0m:0s)
+Wall-clock time for ModelFinder: 0.310 seconds (0h:0m:0s)
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2828.579
+2. Current log-likelihood: -2794.188
+3. Current log-likelihood: -2782.284
+4. Current log-likelihood: -2764.198
+5. Current log-likelihood: -2764.028
+Optimal log-likelihood: -2764.028
+Rate parameters:  A-C: 1.00000  A-G: 3.93285  A-T: 1.00000  C-G: 1.00000  C-T: 3.93285  G-T: 1.00000
+Base frequencies:  A: 0.195  C: 0.315  G: 0.238  T: 0.253
+Gamma shape alpha: 0.093
+Parameters optimization took 5 rounds (0.019 sec)
+BEST SCORE FOUND : -2764.028
+Total tree length: 0.220
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.024 sec (0h:0m:0s)
+Total wall-clock time used: 0.024 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                Salmonid_rh1.phy.iqtree
+  Tree used for ModelFinder:     Salmonid_rh1.phy.treefile
+  Screen log file:               Salmonid_rh1.phy.log
+
+Date and Time: Sat Sep 25 22:36:14 2021

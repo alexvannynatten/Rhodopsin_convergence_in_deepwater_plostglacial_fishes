@@ -1,0 +1,264 @@
+IQ-TREE 1.6.9 built Dec 20 2018
+
+Input file name: Cottid_rh1.phy
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 582666
+
+REFERENCES
+----------
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 49 sequences with 1068 nucleotide sites
+Number of constant sites: 833 (= 77.9963% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 833 (= 77.9963% of all sites)
+Number of parsimony informative sites: 126
+Number of distinct site patterns: 294
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: HKY+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model             LogL          AIC      w-AIC      AICc     w-AICc       BIC      w-BIC
+HKY+F+I+G4       -4206.3115   8614.6230 - 0.0069   8635.9522 - 0.0130   9116.9508 + 0.3853
+TN+F+I+G4        -4203.0823   8610.1647 + 0.0646   8631.9388 + 0.0966   9117.4661 + 0.2978
+K3Pu+F+I+G4      -4203.6318   8611.2636 - 0.0373   8633.0377 + 0.0558   9118.5650 + 0.1719
+TIM+F+I+G4       -4200.4280   8606.8561 + 0.3377   8629.0801 + 0.4034   9119.1310 + 0.1295
+HKY+F+G4         -4214.0573   8628.1145 - 0.0000   8649.0039 - 0.0000   9125.4688 - 0.0054
+TN+F+G4          -4211.0605   8624.1210 - 0.0001   8645.4502 - 0.0001   9126.4489 - 0.0033
+K3Pu+F+G4        -4211.5709   8625.1418 - 0.0000   8646.4710 - 0.0001   9127.4696 - 0.0020
+TVM+F+I+G4       -4201.1111   8610.2222 + 0.0627   8632.9013 + 0.0597   9127.4707 - 0.0020
+GTR+F+I+G4       -4198.0554   8606.1109 + 0.4901   8629.2502 + 0.3706   9128.3329 - 0.0013
+TIM+F+G4         -4208.5686   8621.1372 - 0.0003   8642.9113 - 0.0004   9128.4386 - 0.0012
+TVM+F+G4         -4209.4550   8624.9101 - 0.0000   8647.1342 - 0.0000   9137.1850 - 0.0000
+GTR+F+G4         -4206.4826   8620.9653 - 0.0003   8643.6444 - 0.0003   9138.2138 - 0.0000
+F81+F+I+G4       -4225.2640   8650.5280 - 0.0000   8671.4174 - 0.0000   9147.8823 - 0.0000
+HKY+F+I          -4227.2076   8654.4153 - 0.0000   8675.3046 - 0.0000   9151.7696 - 0.0000
+TN+F+I           -4224.0759   8650.1517 - 0.0000   8671.4809 - 0.0000   9152.4796 - 0.0000
+K3Pu+F+I         -4224.8245   8651.6490 - 0.0000   8672.9782 - 0.0000   9153.9769 - 0.0000
+TIM+F+I          -4221.6893   8647.3786 - 0.0000   8669.1527 - 0.0000   9154.6800 - 0.0000
+F81+F+G4         -4233.1409   8664.2819 - 0.0000   8684.7364 - 0.0000   9156.6626 - 0.0000
+TVMe+I+G4        -4230.1930   8662.3860 - 0.0000   8683.7152 - 0.0000   9164.7139 - 0.0000
+TVM+F+I          -4223.3205   8652.6410 - 0.0000   8674.8650 - 0.0000   9164.9159 - 0.0000
+GTR+F+I          -4220.2044   8648.4088 - 0.0000   8671.0880 - 0.0000   9165.6573 - 0.0000
+SYM+I+G4         -4230.0154   8664.0308 - 0.0000   8685.8049 - 0.0000   9171.3322 - 0.0000
+TVMe+G4          -4239.8996   8679.7991 - 0.0000   8700.6885 - 0.0000   9177.1534 - 0.0000
+K3P+I+G4         -4243.9520   8685.9040 - 0.0000   8706.3586 - 0.0000   9178.2848 - 0.0000
+K2P+I+G4         -4249.2324   8694.4648 - 0.0000   8714.4896 - 0.0000   9181.8720 - 0.0000
+F81+F+I          -4246.3710   8690.7419 - 0.0000   8711.1965 - 0.0000   9183.1227 - 0.0000
+SYM+G4           -4239.6851   8681.3702 - 0.0000   8702.6994 - 0.0000   9183.6980 - 0.0000
+TIMe+I+G4        -4243.7733   8687.5467 - 0.0000   8708.4360 - 0.0000   9184.9010 - 0.0000
+TNe+I+G4         -4249.0424   8696.0847 - 0.0000   8716.5393 - 0.0000   9188.4655 - 0.0000
+K3P+G4           -4252.6384   8701.2767 - 0.0000   8721.3015 - 0.0000   9188.6839 - 0.0000
+K2P+G4           -4257.8024   8709.6048 - 0.0000   8729.2048 - 0.0000   9192.0385 - 0.0000
+TIMe+G4          -4252.4883   8702.9766 - 0.0000   8723.4312 - 0.0000   9195.3574 - 0.0000
+TNe+G4           -4257.6532   8711.3064 - 0.0000   8731.3311 - 0.0000   9198.7136 - 0.0000
+JC+I+G4          -4266.8056   8727.6112 - 0.0000   8747.2112 - 0.0000   9210.0449 - 0.0000
+TVMe+I           -4256.5527   8713.1053 - 0.0000   8733.9947 - 0.0000   9210.4596 - 0.0000
+SYM+I            -4256.3285   8714.6570 - 0.0000   8735.9862 - 0.0000   9216.9849 - 0.0000
+K3P+I            -4266.8229   8729.6458 - 0.0000   8749.6706 - 0.0000   9217.0530 - 0.0000
+JC+G4            -4275.2696   8742.5392 - 0.0000   8761.7195 - 0.0000   9219.9994 - 0.0000
+K2P+I            -4271.9508   8737.9017 - 0.0000   8757.5017 - 0.0000   9220.3354 - 0.0000
+TIMe+I           -4266.6199   8731.2398 - 0.0000   8751.6944 - 0.0000   9223.6206 - 0.0000
+TNe+I            -4271.7480   8739.4960 - 0.0000   8759.5208 - 0.0000   9226.9033 - 0.0000
+JC+I             -4289.3879   8770.7759 - 0.0000   8789.9561 - 0.0000   9248.2360 - 0.0000
+HKY+F            -4403.2033   9004.4065 - 0.0000   9024.8611 - 0.0000   9496.7873 - 0.0000
+K3Pu+F           -4400.1470   9000.2941 - 0.0000   9021.1834 - 0.0000   9497.6484 - 0.0000
+TN+F             -4401.0786   9002.1571 - 0.0000   9023.0465 - 0.0000   9499.5114 - 0.0000
+TIM+F            -4398.0219   8998.0438 - 0.0000   9019.3730 - 0.0000   9500.3717 - 0.0000
+TVM+F            -4397.1435   8998.2870 - 0.0000   9020.0611 - 0.0000   9505.5883 - 0.0000
+GTR+F            -4394.9983   8995.9967 - 0.0000   9018.2207 - 0.0000   9508.2716 - 0.0000
+F81+F            -4421.1449   9038.2898 - 0.0000   9058.3146 - 0.0000   9525.6971 - 0.0000
+TVMe             -4426.5535   9051.1070 - 0.0000   9071.5615 - 0.0000   9543.4877 - 0.0000
+SYM              -4426.5332   9053.0663 - 0.0000   9073.9557 - 0.0000   9550.4207 - 0.0000
+K3P              -4438.9761   9071.9521 - 0.0000   9091.5521 - 0.0000   9554.3858 - 0.0000
+K2P              -4444.0306   9080.0612 - 0.0000   9099.2414 - 0.0000   9557.5213 - 0.0000
+TIMe             -4438.9596   9073.9193 - 0.0000   9093.9441 - 0.0000   9561.3265 - 0.0000
+TNe              -4444.0139   9082.0277 - 0.0000   9101.6277 - 0.0000   9564.4614 - 0.0000
+JC               -4461.0902   9112.1803 - 0.0000   9130.9458 - 0.0000   9584.6669 - 0.0000
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+I+G4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.8508
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 1.8508
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.167
+  pi(C) = 0.3377
+  pi(G) = 0.2713
+  pi(T) = 0.224
+
+Rate matrix Q:
+
+  A    -1.132    0.3592    0.5341    0.2383
+  C    0.1776   -0.9072    0.2886    0.4411
+  G    0.3287    0.3592   -0.9263    0.2383
+  T    0.1776    0.6649    0.2886    -1.131
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.4385
+Gamma shape alpha: 0.5527
+
+ Category  Relative_rate  Proportion
+  0         0              0.4385
+  1         0.07753        0.1404
+  2         0.5075         0.1404
+  3         1.523          0.1404
+  4         5.016          0.1404
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+TREE USED FOR ModelFinder
+-------------------------
+
+Log-likelihood of the tree: -4206.1641 (s.e. 174.2377)
+Unconstrained log-likelihood (without tree): -4381.1151
+Number of free parameters (#branches + #model parameters): 101
+Akaike information criterion (AIC) score: 8614.3282
+Corrected Akaike information criterion (AICc) score: 8635.6574
+Bayesian information criterion (BIC) score: 9116.6560
+
+Total tree length (sum of branch lengths): 0.6520
+Sum of internal branch lengths: 0.2165 (33.2140% of tree length)
+
+WARNING: 8 near-zero internal branches (<0.0009) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Abyssocottus_korotneffi' is drawn at root
+
++--Abyssocottus_korotneffi
+|
+|                                                                  +--Artedius_fenestralis
+|                                                               +**|
+|                                                               |  |       +--Artedius_harringtoni
+|                                                               |  |  +----|
+|                                                               |  |  |    +-------Orthonopias_triacis
+|                                                               |  +--|
+|                                                               |     +**Artedius_lateralis
+|                                                            +--|
+|                                                            |  +--Artedius_notospilotus
+|                                                         +**|
+|                                                         |  +--Leiocottus_hirundo
+|                                                      +--|
+|                                                      |  |  +--Clinocottus_acuticeps
+|                                                      |  +--|
+|                                                      |     |           +--Clinocottus_analis
+|                                                      |     |        +--|
+|                                                      |     |        |  +--Oligocottus_rimensis
+|                                                      |     |     +**|
+|                                                      |     |     |  |  +--Oligocottus_rubellio
+|                                                      |     |     |  +--|
+|                                                      |     |     |     +--Oligocottus_snyderi
+|                                                      |     |  +**|
+|                                                      |     |  |  |     +--Clinocottus_embryum
+|                                                      |     |  |  |  +**|
+|                                                      |     |  |  |  |  +**Clinocottus_recalvus
+|                                                      |     |  |  +--|
+|                                                      |     |  |     +**Clinocottus_globiceps
+|                                                      |     +**|
+|                                                      |        +**Oligocottus_maculosus
+|                                      +---------------|
+|                                      |               +-------------Chitonotus_pugetensis
+|                                   +--|
+|                                   |  |  +----Myoxocephalus_octodecemspinosus
+|                                   |  +--|
+|                                   |     |  +**Myoxocephalus_quadricornis
+|                                   |     +--|
+|                                   |        |     +**Myoxocephalus_thompsonii_1
+|                                   |        |  +**|
+|                                   |        |  |  |  +**Myoxocephalus_thompsonii_2
+|                                   |        |  |  +--|
+|                                   |        |  |     +**Myoxocephalus_thompsonii_3
+|                                   |        +**|
+|                                   |           +----Megalocottus_platycephalus
+|                    +--------------|
+|                    |              |         +-------------Cottunculus_thomsonii
+|                    |              |      +--|
+|                    |              |      |  +-----------Icelinus_filamentosus
+|                    |              |  +---|
+|                    |              |  |   +-----Triglops_nybelini
+|                    |              +--|
+|                    |                 |        +--Enophrys_bison
+|                    |                 |     +--|
+|                    |                 |     |  +-----------Taurulus_bubalis
+|                    |                 |  +--|
+|                    |                 |  |  +--Enophrys_lucasi
+|                    |                 +--|
+|                    |                    |     +**Myoxocephalus_polyacanthocephalus
+|                    |                    |  +--|
+|                    |                    |  |  +--Myoxocephalus_jaok
+|                    |                    +--|
+|                    |                       +--Myoxocephalus_scorpius
+|                 +--|
+|                 |  |  +--Cottus_aleuticus
+|                 |  +--|
+|                 |     +-------------Leptocottus_armatus
+|              +--|
+|              |  |           +-------Cottocomephorus_inermis
+|              |  |        +--|
+|              |  |        |  +-----Cottus_asper
+|              |  |     +--|
+|              |  |     |  |   +--Cottus_bairdii
+|              |  |     |  +---|
+|              |  |     |      +**Cottus_rhotheus
+|              |  |  +--|
+|              |  |  |  +--Cottus_ricei
+|              |  +--|
+|              |     |   +**Cottus_cognatus
+|              |     +---|
+|              |         +**Cottus_confusus
+|           +--|
+|           |  |  +--Leocottus_kesslerii
+|           |  +--|
+|           |     +**Paracottus_knerii
+|        +--|
+|        |  +--Procottus_major
+|     +--|
+|     |  +-----Comephorus_dybowskii
+|  +--|
+|  |  +--Batrachocottus_multiradiatus
++--|
+|  |  +----Limnocottus_bergianus
+|  +--|
+|     +-------Limnocottus_pallidus
+|
++-----Cottinella_boulengeri
+
+Tree in newick format:
+
+(Abyssocottus_korotneffi:0.0066208435,((((((((((((((Artedius_fenestralis:0.0030944343,((Artedius_harringtoni:0.0071873593,Orthonopias_triacis:0.0193044615):0.0139966242,Artedius_lateralis:0.0000027190):0.0015316263):0.0000027189,Artedius_notospilotus:0.0030758141):0.0015461520,Leiocottus_hirundo:0.0046503433):0.0000021762,(Clinocottus_acuticeps:0.0061666507,((((Clinocottus_analis:0.0030746674,Oligocottus_rimensis:0.0015320548):0.0030885522,(Oligocottus_rubellio:0.0030872615,Oligocottus_snyderi:0.0031144857):0.0030954836):0.0000025435,((Clinocottus_embryum:0.0030791805,Clinocottus_recalvus:0.0000027190):0.0000027189,Clinocottus_globiceps:0.0000027190):0.0030732702):0.0000027189,Oligocottus_maculosus:0.0000027190):0.0000027189):0.0030548760):0.0057925690,Chitonotus_pugetensis:0.0337744976):0.0390232811,(Myoxocephalus_octodecemspinosus:0.0123275406,(Myoxocephalus_quadricornis:0.0000027190,((Myoxocephalus_thompsonii_1:0.0000027190,(Myoxocephalus_thompsonii_2:0.0000027190,Myoxocephalus_thompsonii_3:0.0000027190):0.0009783520):0.0000027189,Megalocottus_platycephalus:0.0121472593):0.0000027189):0.0041792079):0.0033228503):0.0045946309,(((Cottunculus_thomsonii:0.0346234118,Icelinus_filamentosus:0.0303745619):0.0079923555,Triglops_nybelini:0.0165287751):0.0103534385,(((Enophrys_bison:0.0066882273,Taurulus_bubalis:0.0302697826):0.0070247071,Enophrys_lucasi:0.0069614827):0.0017536539,((Myoxocephalus_polyacanthocephalus:0.0000027190,Myoxocephalus_jaok:0.0012141723):0.0019116251,Myoxocephalus_scorpius:0.0026795093):0.0061202191):0.0021255721):0.0043472844):0.0360296317,(Cottus_aleuticus:0.0035740460,Leptocottus_armatus:0.0345769840):0.0048079430):0.0037037316,((((Cottocomephorus_inermis:0.0193428582,Cottus_asper:0.0163735618):0.0048799065,(Cottus_bairdii:0.0057939987,Cottus_rhotheus:0.0000027190):0.0101544592):0.0040043227,Cottus_ricei:0.0082991926):0.0025191126,(Cottus_cognatus:0.0000022849,Cottus_confusus:0.0000027210):0.0107414446):0.0031779419):0.0030774715,(Leocottus_kesslerii:0.0029768232,Paracottus_knerii:0.0000027190):0.0014821814):0.0046250037,Procottus_major:0.0075866681):0.0014000826,Comephorus_dybowskii:0.0159627305):0.0039537689,Batrachocottus_multiradiatus:0.0075443358):0.0011477422,(Limnocottus_bergianus:0.0134193049,Limnocottus_pallidus:0.0210837368):0.0010607068):0.0025724076,Cottinella_boulengeri:0.0155583202);
+
+TIME STAMP
+----------
+
+Date and time: Sat Sep 25 22:44:03 2021
+Total CPU time used: 3.5225 seconds (0h:0m:3s)
+Total wall-clock time used: 3.56982 seconds (0h:0m:3s)
+
