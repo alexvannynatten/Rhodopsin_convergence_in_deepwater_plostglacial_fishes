@@ -1,0 +1,21 @@
+atom id #0:1296.A@C7 idatmType C2
+atom id #0:1296.A@C8 idatmType C2
+atom id #0:1296.A@C9 idatmType C2
+atom id #0:1296.A@C10 idatmType C2
+atom id #0:1296.A@C11 idatmType C2
+atom id #0:1296.A@C12 idatmType C2
+atom id #0:1296.A@C13 idatmType C2
+atom id #0:1296.A@C14 idatmType C2
+atom id #0:1296.A@C15 idatmType C2
+atom id #0:1296.A@C16 idatmType C3
+atom id #0:1296.A@C17 idatmType C3
+atom id #0:1296.A@C18 idatmType C3
+atom id #0:1296.A@C19 idatmType C3
+atom id #0:1296.A@C20 idatmType C3
+atom id #0:1296.A@C1 idatmType C3
+atom id #0:1296.A@C2 idatmType C3
+atom id #0:1296.A@C3 idatmType C3
+atom id #0:1296.A@C4 idatmType C3
+atom id #0:1296.A@C5 idatmType C2
+atom id #0:1296.A@C6 idatmType C2
+

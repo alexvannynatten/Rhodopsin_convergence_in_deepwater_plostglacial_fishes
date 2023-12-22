@@ -1,0 +1,12 @@
+atom id #0:261.A@CD2 idatmType Car
+atom id #0:261.A@CE1 idatmType Car
+atom id #0:261.A@CE2 idatmType Car
+atom id #0:261.A@CZ idatmType Car
+atom id #0:261.A@N idatmType Npl
+atom id #0:261.A@CA idatmType C3
+atom id #0:261.A@C idatmType C2
+atom id #0:261.A@O idatmType O2
+atom id #0:261.A@CB idatmType C3
+atom id #0:261.A@CG idatmType Car
+atom id #0:261.A@CD1 idatmType Car
+
