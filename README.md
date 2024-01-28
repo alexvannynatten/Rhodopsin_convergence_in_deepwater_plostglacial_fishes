@@ -26,5 +26,9 @@ Code and files for manuscript
   -- 03_ASR_substitution_summary.R: Converts PAML RST output files to a list of aa substitutions by branch
   -- 04_Post_prob_nodelabels_plot.R: Plots the probability of F/Y 261 across the phylogenies (Fig 3)
 
-  
+- 04_Rho_metabarcoding_assay
+  -- 01_a_cutadapt_Rho_pipeline.R: Pipeline to remove primers and heterogeneity spacers using cutadapt
+  -- 01_b_dada2_Rho_pipeline.R: Pipeline using DADA2 to denoise EniRho metabarcoding data
+  -- 02_Rho_metabarcoding_comparison_plot.R: Plots a comparison of the metabarcoding data to the true allele frequency from Sanger results  (Fig 4)
+  -- Sample_codes.csv: Reference codes for the samples sequences using DNA metabarcoding 
   
