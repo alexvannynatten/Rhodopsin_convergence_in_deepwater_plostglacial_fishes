@@ -2,6 +2,7 @@
 Code and files for manuscript
 
 - 01_Rho_allele_distribution
+
   -- 01_Allele_lake_plot.R: Plots the distribution of rhodopsin alleles in both species as a scatter plot (Fig 1b)
   
   -- 02_Allele_huron_plot.R: Barplot of the distribution of rhodopsin alleles in Lake Huron ciscoes (Fig 1d)
@@ -17,6 +18,7 @@ Code and files for manuscript
   -- Sample_location_codes.csv: Location data for samples collected across Canada
 
 - 02_Rho_spectral_sensitivity
+  
   -- 01_Downwelling_light_plot.R: Plots the downwelling light spectra underwater in Lake Huron (Fig 2a)
   
   -- 02_Lmax_curves_plot.R: Plots the absorbance spectra of different rhodopsin sequences (Fig 2b)
@@ -32,6 +34,7 @@ Code and files for manuscript
   -- Kd_Jerome1983.csv: Underwater light attenuation data digitized from Jerome 1983
   
 - 03_Rho_phylogeny_ecology
+  
   -- 01_Salmonid_phylogeny_and_depth_plot.R: Plots the species tree of salmonids showing ecological and depth distribution (Fig 3)
   
   -- 01_Sculpin_phylogeny_and_depth_plot.R: Plots the species tree of salmonids showing ecological and depth distribution (Fig 3)
@@ -43,6 +46,7 @@ Code and files for manuscript
   -- 04_Post_prob_nodelabels_plot.R: Plots the probability of F/Y 261 across the phylogenies (Fig 3)
 
 - 04_Rho_metabarcoding_assay
+  
   -- 01_a_cutadapt_Rho_pipeline.R: Pipeline to remove primers and heterogeneity spacers using cutadapt
   
   -- 01_b_dada2_Rho_pipeline.R: Pipeline using DADA2 to denoise EniRho metabarcoding data
